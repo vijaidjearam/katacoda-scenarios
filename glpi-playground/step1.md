@@ -42,7 +42,7 @@ services:
     restart: always
 ```
 
-`curl https://raw.githubusercontent.com/vijaidjearam/docker-glpi/main/docker-compose.yml -o docker-compose.yml`{{execute}}
+`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/docker-compose.yml -o docker-compose.yml`{{execute}}
 
 
 ## Execute docker-compose
