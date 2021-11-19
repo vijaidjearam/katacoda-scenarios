@@ -1,31 +1,15 @@
-# GLPI Playground
-
-
-Exemplos prático de utilização do GLPI
-
-Passos: 
-- [x] Instanciar o GLPI no Docker; 
-- [x] Efetuar o logon; 
-- [x] Alterar o idioma; 
-
+# GLPI Docker
+This sandbox environment helps to understand using GLPI with docker containers
+##Agenda:
+1. Install GLPI version 9.1.6
+2. Update GLPI 9.1.6 -> 9.2.1
+3. Update GLPI 9.2.2 -> 9.5.6
+4. Rollback GLPI 9.5.6 -> 9.2.2
 
 
 
-### Contribuições e sugestões
-
-https://github.com/eduardofraga/katacoda-scenarios
 
 
-### Cursos
 
-https://www.fametreinamentos.com.br/
-
-
-### Serviços
-
-
-contato@fametec.com.br
-
-https://www.fametec.com.br
 
 
