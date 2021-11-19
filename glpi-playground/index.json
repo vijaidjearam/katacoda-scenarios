@@ -1,8 +1,8 @@
 {
-  "title": "GLPI Playground",
-  "description": "Use GLPI sandboxed playground environment",
+  "title": "GLPI Docker",
+  "description": "GLPI using Docker containers",
   "difficulty": "Intermediate",
-  "time": "60 minutes",
+  "time": "30 minutes",
   "details": {
     "steps": [
       {
