@@ -1,43 +1,63 @@
-# Topologia 
+# Topology
 
-Este cenário possui a seguinte topologia: 
 
 
 ![Topologia](https://raw.githubusercontent.com/fametec/glpi/master/topologia-docker-compose-glpi.png)
 
 
 
-## Download do docker-compose.yml
+## Download docker-compose.yml
 
 
-O Docker compose facilita a instalação dos containers da topologia. 
+Lets first download the docker-compose.yml file.
+```
+version: "3.2"
 
-No terminal ao lado execute o comando a seguir: 
+services:
+#Mysql Container
+  mysql:
+    image: mysql:5.7.23
+    container_name: mysql-916
+    hostname: mysql-916
+    volumes:
+      - /var/lib/mysql-916:/var/lib/mysql
+    env_file:
+      - ./mysql.env
+    restart: always
 
-`curl https://raw.githubusercontent.com/fametec/glpi/master/docker/docker-compose.yml -o docker-compose.yaml`{{execute}}
+#GLPI Container
+  glpi:
+    image: diouxx/glpi
+    container_name : glpi-916
+    hostname: glpi-916
+    ports:
+      - "80:80"
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /var/www/html/glpi-916:/var/www/html/glpi
+    environment:
+      - TIMEZONE=Europe/Brussels
+      - VERSION_GLPI=9.1.6
+    restart: always
+```
+
+`curl https://raw.githubusercontent.com/vijaidjearam/docker-glpi/main/docker-compose.yml -o docker-compose.yaml`{{execute}}
 
 
 ## Execute docker-compose
 
 
-Para iniciar execute o comando `docker-compose up` conforme a seguir: 
+Lets execute the docker compose file using the following command below: 
 
 
-`docker-compose up`{{execute}}
+`docker-compose up -d`{{execute}}
+
+The above command spins up two container glpi-916 and mysql-916
+To view the containers running use the following command below.
+`docker ps -a`{{execute}}
 
 
-
-Aguarde o deploy até sugir a mensagem a seguir: 
-
-![Mariadb](https://github.com/eduardofraga/katacoda-scenarios/blob/master/glpi-playground/katacoda/mariadb-ready-for-connections.png)
-
-
-## Mude para a aba Dashboard
-
-Por fim acesse a aba Dashboard. 
-
-
-![Dashboard](https://github.com/eduardofraga/katacoda-scenarios/raw/master/glpi-playground/katacoda/2020-03-21-18-12-46-Window.png)
 
 
 
