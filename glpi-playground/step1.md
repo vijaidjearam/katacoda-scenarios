@@ -54,7 +54,8 @@ Lets execute the docker compose file using the following command below:
 `docker-compose up -d`{{execute}}
 
 The above command spins up two container glpi-916 and mysql-916
-To view the containers running use the following command below.
+To view the containers running use the following command below
+
 `docker ps -a`{{execute}}
 
 
