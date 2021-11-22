@@ -1,3 +1,3 @@
 #!/bin/bash
-python3 glpi-upgrade-template.py
+python3 upgrade.py
 ./glpi-upgrade-template-latest.sh
