@@ -39,7 +39,8 @@ with open(filename, 'r+') as f:
 3. glpi-rollback-template.sh
 ```
 #!/bin/bash
-docker stop $(docker ps -a -q)
+docker stop glpi-latest-version mysql-latest-version
+docker rm -f glpi-previous-version mysql-previous-version
 docker network rm glpi-net-latest-version
 docker network create \
   --driver=bridge \
