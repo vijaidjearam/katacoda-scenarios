@@ -1,12 +1,9 @@
-# Visão geral
+# Upgrade Glpi-9.1.16 -> 9.2.1
 
-## Login
+## Schema
 
-Faça o login com usuario `glpi` e senha `glpi`. 
+![schema](https://github.com/vijaidjearam/katacoda-scenarios/blob/main/glpi-playground/Assets/images/glpi-916to921.gif?raw=true)
 
-
-
-![Login](https://github.com/eduardofraga/katacoda-scenarios/raw/master/glpi-playground/katacoda/2020-03-22-17-24-09-GLPI%20Playground%20by%20eduardofraga%20_%20Katacoda.png)
 
 
 
