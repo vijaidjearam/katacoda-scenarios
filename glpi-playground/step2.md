@@ -84,6 +84,9 @@ docker cp /var/www/html/glpi-previous-version/plugins/ glpi-latest-version:/var/
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade-template.sh -o glpi-upgrade-template.sh
 chmod +x glpi-upgrade-template.sh`{{execute}}
 
+4.Lets install python 3, because we use upgrade.py which reads the glpi-upgrade-template.sh and changes the script accordingly to install the upgrade
+`apt-get install python3 -y`{{execute}}
+
 Execute glpi-upgrade.sh
 
 `./glpi-upgrade.sh`{{execute}}
