@@ -1,4 +1,4 @@
-# Rollback GLPI 9.5.6 -> 9.2.2
+# Rollback GLPI 9.5.6 -> 9.2.1
 
 Lets take the scenario of rolling back 956 -> 921
 
