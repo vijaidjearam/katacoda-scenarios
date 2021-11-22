@@ -11,6 +11,9 @@ Follow the onscreen prompts to upgrade from 921 -> 956
 
 After Glpi Install changing version 921 -> 956 could show you an error regarding the tables not migrated. 
 
-Pls 
+![innodb-error](https://github.com/vijaidjearam/katacoda-scenarios/blob/main/glpi-playground/Assets/images/InnoDb%20tables%20missing-error.png?raw=true)
+
+Please download and run the following script to fix the issue.
+
 
 
