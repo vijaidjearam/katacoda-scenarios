@@ -9,4 +9,8 @@ Execute glpi-upgrade.sh
 
 Follow the onscreen prompts to upgrade from 921 -> 956
 
+After Glpi Install changing version 921 -> 956 could show you an error regarding the tables not migrated. 
+
+Pls 
+
 
