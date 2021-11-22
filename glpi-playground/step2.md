@@ -13,7 +13,7 @@ We need to download 3 files :
 python3 glpi-upgrade-template.py
 ./glpi-upgrade-template-latest.sh
 ```
-```curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade.sh -o glpi-upgrade.sh``` {{execute}}
+`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade.sh -o glpi-upgrade.sh` {{execute}}
 
 2. upgrade.py
 3. glpi-upgrade-template.sh
