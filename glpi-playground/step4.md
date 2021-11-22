@@ -42,6 +42,7 @@ with open(filename, 'r+') as f:
 docker stop glpi-latest-version mysql-latest-version
 docker rm -f glpi-previous-version mysql-previous-version
 docker network rm glpi-net-latest-version
+docker network rm glpi-net-previous-version
 docker network create \
   --driver=bridge \
   --subnet=172.0.0.1/24 \
