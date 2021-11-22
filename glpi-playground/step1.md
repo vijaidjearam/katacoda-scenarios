@@ -2,7 +2,7 @@
 
 
 
-![Initial Schema](https://github.com/vijaidjearam/katacoda-scenarios/blob/main/glpi-playground/Assets/images/glpi-916.gif)
+![Initial Schema](https://github.com/vijaidjearam/katacoda-scenarios/blob/main/glpi-playground/Assets/images/glpi-916.gif?raw=true)
 
 
 
