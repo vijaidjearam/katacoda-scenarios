@@ -42,8 +42,11 @@ services:
     restart: always
 ```
 Download docker-compose.yml
+
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/docker-compose.yml -o docker-compose.yml`{{execute}}
+
 Download mysql.env
+
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/mysql.env -o mysql.env`{{execute}}
 
 ## Execute docker-compose
