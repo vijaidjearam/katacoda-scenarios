@@ -75,7 +75,7 @@ docker run \
 ```
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-rollback-template.sh -o glpi-rollback-template.sh`{{execute}}
 
-`chmod +x glpi-rollback.sh`{{execute}}
+`chmod +x glpi-rollback-template.sh`{{execute}}
 
 Finally execute glpi-rollback.sh and follow the onscreen-prompts to complete the rollback
 
