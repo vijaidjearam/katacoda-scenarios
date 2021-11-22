@@ -23,6 +23,6 @@ Please follow the steps below to fix the issue.
 
 `php innodb_migration.php`{{execute}}
 
-
+`exit`{{execute}}
 
 
