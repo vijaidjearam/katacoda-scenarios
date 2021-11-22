@@ -1,4 +1,4 @@
-# Schema
+# Installing GLPI version 9.1.6
 
 
 
