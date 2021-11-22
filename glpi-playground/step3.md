@@ -16,9 +16,13 @@ After Glpi Install changing version 921 -> 956 could show you an error regarding
 Please follow the steps below to fix the issue.
 
 `docker exec -it glpi-956 bash`{{execute}}
+
 `cd /var/www/html/glpi/scripts/`{{execute}}
+
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/innodb_migration.php -o innodb_migration.php`{{execute}}
+
 `php innodb_migration.php`{{execute}}
+
 
 
 
