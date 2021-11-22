@@ -13,7 +13,8 @@ We need to download 3 files :
 python3 glpi-upgrade-template.py
 ./glpi-upgrade-template-latest.sh
 ```
-`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade.sh -o glpi-upgrade.sh`{{execute}}
+`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade.sh -o glpi-upgrade.sh
+chmod +x glpi-upgrade.sh`{{execute}}
 
 2. upgrade.py
 ```
@@ -80,7 +81,8 @@ sleep 10
 docker cp /var/www/html/glpi-previous-version/files/ glpi-latest-version:/var/www/html/glpi
 docker cp /var/www/html/glpi-previous-version/plugins/ glpi-latest-version:/var/www/html/glpi
 ```
-`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade-template.sh -o glpi-upgrade-template.sh`{{execute}}
+`curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/glpi-upgrade-template.sh -o glpi-upgrade-template.sh
+chmod +x glpi-upgrade-template.sh`{{execute}}
 
 Execute glpi-upgrade.sh
 
