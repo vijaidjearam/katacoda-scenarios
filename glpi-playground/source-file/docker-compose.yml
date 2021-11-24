@@ -6,6 +6,8 @@ services:
     image: mysql:5.7.23
     container_name: mysql-916
     hostname: mysql-916
+    ports:
+      - "3306:3306"
     volumes:
       - /var/lib/mysql-916:/var/lib/mysql
     env_file:
