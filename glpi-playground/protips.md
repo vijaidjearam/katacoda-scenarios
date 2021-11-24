@@ -6,10 +6,13 @@ docker ps -a
 ```
 ![image](https://user-images.githubusercontent.com/1507737/141952594-96a8c330-c7b2-4204-8e21-51a4d5a0d3e3.png)
 * Check the network mode of the container (ex: glpi-916)
+
 ```
 docker inspect glpi-916
 ```
+
 * The ouptut is a json and in the json check the network mode to check the container is attached to which network.
+
 ![image](https://user-images.githubusercontent.com/1507737/141953392-b41acdc8-f8e8-4e2e-bcf2-9062f4ee3df6.png)
   
 * Now use the following command to list the networks available.
