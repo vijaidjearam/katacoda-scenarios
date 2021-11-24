@@ -62,12 +62,6 @@ To view the containers running use the following command below
 
 `docker ps -a`{{execute}}
 
-## Lets try to upload a PDF file to the GLPI
-
-Lets get into the glpi container using the following command
-`docker exec -it glpi-916 bash`{{execute}}
-
-
 ## Fusion Inventory Plugin Install
 
 Now lets install Fusion Inventory Plugin for GLPI ver 9.1 
@@ -101,6 +95,15 @@ Now lets click on the Dashboard button and start the install of GLPI
 ![image](https://user-images.githubusercontent.com/1507737/143208082-1dd1fdc6-a44a-48e5-9bbd-a143b370d756.png)
 
 ![image](https://user-images.githubusercontent.com/1507737/143208185-642a582b-2f68-4166-8f06-0401fd0dc1ac.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143222940-d88b719e-2b09-4769-a70f-f70cac4aa9dc.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143223094-8c16cec4-61c8-42b4-9e3b-c9ed20923bd5.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143223190-a4303109-0e1a-4bd8-8c6d-e887fdfa81a0.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143223323-280163f8-e844-41d0-8837-3d7b826c7c61.png)
+
 
 Navigate to plugins -> fusion inventory
 
