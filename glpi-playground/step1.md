@@ -82,17 +82,16 @@ Lets decompress the file
 
 `tar xvf fusioninventory-for-glpi_9.1.1.0.tar.gz`{{execute}}
 
+Delete the downloaded tar file 
+
+`rm fusioninventory-for-glpi_9.1.1.0.tar.gz`{{execute}}
+
+Lets exit from the container
+
+`exit`{{execute}}
+
 Now lets click on the Dashboard button and start the install of GLPI
 
 ![image](https://user-images.githubusercontent.com/1507737/143208082-1dd1fdc6-a44a-48e5-9bbd-a143b370d756.png)
 
 ![image](https://user-images.githubusercontent.com/1507737/143208185-642a582b-2f68-4166-8f06-0401fd0dc1ac.png)
-
-
-
-
-
-
-
-
-
