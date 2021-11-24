@@ -101,7 +101,5 @@ Navigate to plugins -> fusion inventory
 To fix the glpicron waning please do the following:
 
 `docker exec -it glpi-916 bash`{{execute}}
+
 `echo "* * * * * /usr/bin/php5 /var/www/glpi/front/cron.php &>/dev/null" | crontab -u root -`{{execute}}
-
-
-
