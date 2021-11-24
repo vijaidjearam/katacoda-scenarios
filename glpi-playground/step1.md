@@ -95,3 +95,13 @@ Now lets click on the Dashboard button and start the install of GLPI
 ![image](https://user-images.githubusercontent.com/1507737/143208082-1dd1fdc6-a44a-48e5-9bbd-a143b370d756.png)
 
 ![image](https://user-images.githubusercontent.com/1507737/143208185-642a582b-2f68-4166-8f06-0401fd0dc1ac.png)
+
+Navigate to plugins -> fusion inventory
+
+To fix the glpicron waning please do the following:
+
+`docker exec -it glpi-916 bash`{{execute}}
+`echo "* * * * * /usr/bin/php5 /var/www/glpi/front/cron.php &>/dev/null" | crontab -u root -`{{execute}}
+
+
+
