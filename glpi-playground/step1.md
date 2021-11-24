@@ -62,6 +62,35 @@ To view the containers running use the following command below
 
 `docker ps -a`{{execute}}
 
+## Fusion Inventory Plugin Install
+
+Now lets install Fusion Inventory Plugin for GLPI ver 9.1 
+
+Lets get into the glpi container using the following command
+
+`docker exec -it glpi-916 bash`{{execute}}
+
+Lets navigate to the glpi folder
+
+`cd /var/www/html/glpi/plugins`{{execute}}
+
+Lets download the fusion-invnetory source file from github
+
+`wget https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi9.1+1.0/fusioninventory-for-glpi_9.1.1.0.tar.gz`{{execute}}
+
+Lets decompress the file
+
+`tar xvf fusioninventory-for-glpi_9.1.1.0.tar.gz`{{execute}}
+
+Now lets click on the Dashboard button and start the install of GLPI
+
+![image](https://user-images.githubusercontent.com/1507737/143208082-1dd1fdc6-a44a-48e5-9bbd-a143b370d756.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143208185-642a582b-2f68-4166-8f06-0401fd0dc1ac.png)
+
+
+
+
 
 
 
