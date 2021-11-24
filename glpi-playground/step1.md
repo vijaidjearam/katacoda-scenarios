@@ -109,7 +109,7 @@ Now lets click on the Dashboard button and start the install of GLPI
 
 Navigate to plugins -> fusion inventory
 
-To fix the glpicron waning please do the following:
+To fix the glpicron warning please do the following:
 
 `docker exec -it glpi-916 bash`{{execute}}
 
