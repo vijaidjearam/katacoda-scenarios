@@ -20,6 +20,14 @@
       {
         "title": "Step 4",
         "text": "step4.md"
+      },
+      {
+        "title": "Backup",
+        "text": "Backup.md"
+      },
+       {
+        "title": "Pro Tips",
+        "text": "protips.md"
       }
     ],
     "intro": {
