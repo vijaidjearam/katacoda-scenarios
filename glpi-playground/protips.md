@@ -6,7 +6,6 @@ docker ps -a
 ```
 ![image](https://user-images.githubusercontent.com/1507737/141952594-96a8c330-c7b2-4204-8e21-51a4d5a0d3e3.png)
 * Check the network mode of the container (ex: glpi-916)
-
 ```
 docker inspect glpi-916
 ```
