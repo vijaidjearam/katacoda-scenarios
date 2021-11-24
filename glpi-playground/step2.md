@@ -98,6 +98,50 @@ Verify the if the docker has started spining.
 
 `docker ps -a`{{execute}}
 
+## Fusion Inventory Plugin Install
+
+Now lets install Fusion Inventory Plugin for GLPI ver 9.2 
+
+Lets get into the glpi container using the following command
+
+`docker exec -it glpi-921 bash`{{execute}}
+
+Lets navigate to the glpi folder
+
+`cd /var/www/html/glpi/plugins`{{execute}}
+
+Lets remove the old fusioninventory folder because its not comaptible with the new version of GLPI
+
+`rm -R fusioninventory/`{{execute}}
+
+Lets download the fusion-invnetory source file from github
+
+`wget https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi9.2%2B2.0/fusioninventory-9.2.2.0.tar.bz2`{{execute}}
+
+To decompress tar bz2 file check if you have bzip2 installed
+
+`apt-get update -y`{{execute}}
+
+`apt-get install bzip2`{{execute}}
+
+Lets decompress the file
+
+`tar xjvf fusioninventory-9.2.2.0.tar.bz2`{{execute}}
+
+Delete the downloaded tar file 
+
+`rm fusioninventory-9.2.2.0.tar.bz2`{{execute}}
+
+Lets exit from the container
+
+`exit`{{execute}}
+
+Now lets click on the Dashboard button and start the install of GLPI
+
+![image](https://user-images.githubusercontent.com/1507737/143208082-1dd1fdc6-a44a-48e5-9bbd-a143b370d756.png)
+
+![image](https://user-images.githubusercontent.com/1507737/143208185-642a582b-2f68-4166-8f06-0401fd0dc1ac.png)
+
 
 
 
