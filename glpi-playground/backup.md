@@ -1,7 +1,9 @@
 # Backup 
 To backup we are going to use the CRON
 Please add the following lines to the crontab
+
 `crontab -e`{{execute}}
+
 ```
 #The following command will backup Glpi volume
 0 0 * * * sudo tar -Pzcf /backups/glpi-916_$(date "+\%Y-\%m-\%d_\%H-\%M-\%S").tgz /var/www/html/glpi-916 >/dev/null 2>&1
