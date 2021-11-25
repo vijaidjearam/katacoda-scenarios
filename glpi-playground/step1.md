@@ -47,7 +47,7 @@ Download docker-compose.yml
 
 `curl https://raw.githubusercontent.com/vijaidjearam/katacoda-scenarios/main/glpi-playground/source-file/docker-compose.yml -o docker-compose.yml`{{execute}}
 
-Download mysql.env
+Download mysql.env test
 ```
 MYSQL_ROOT_PASSWORD=diouxx
 MYSQL_DATABASE=glpidb
