@@ -1,0 +1,21 @@
+cd /var/www/
+tar -zcvf /backups/glpi-backup.tar.gz html
+cd /var/lib/mysql/
+tar -zcvf /backups/glpi-mysql-backup.tar.gz glpi
+cd /backups/
+scp glpi-backup.tar.gz root@xxx.xxx.xxx.xxx:/backups
+scp glpi-mysql-backup.tar.gz root@xxx.xxx.xxx.xxx:/backups
+
+
+
+
+
+
+
+
+cd html
+tar -zxvf /backups/glpi-backup.tar.gz
+mv html glpi-954
+cd /var/lib
+tar -zxvf /backups/glpi-mysql-backup.tar.gz
+mv glpi mysql-954
