@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get update && apt-get upgrade
 cd /usr/src
 wget https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi9.5%2B3.0/fusioninventory-9.5+3.0.tar.bz2
